@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Mejor Tech LLC builds practical software that makes everyday work simpler."
+    />
+    <title>Mejor Tech LLC</title>
+    <link rel="icon" href="/mark.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Mejor Tech home">
+        <img src="/mark.svg" alt="" width="38" height="38" />
+        <span>Mejor Tech</span>
+      </a>
+      <nav aria-label="Main navigation">
+        <a href="#about">About</a>
+        <a href="#products">Products</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">MEJOR TECH LLC · NEW JERSEY</p>
+          <h1>Building Better Technology That Makes Sense.</h1>
+          <p class="hero-text">
+            We design practical, approachable software for everyday people and
+            small businesses. Clear tools, thoughtful design, and no unnecessary
+            complexity.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#products">View our products</a>
+            <a class="button secondary" href="mailto:evelyn62893@gmail.com">Contact us</a>
+          </div>
+        </div>
+
+        <div class="hero-card" aria-label="Mejor Tech product principles">
+          <div class="window-top">
+            <span></span><span></span><span></span>
+          </div>
+          <div class="principle">
+            <strong>01</strong>
+            <div><h2>Useful first</h2><p>Every product starts with a real problem worth solving.</p></div>
+          </div>
+          <div class="principle">
+            <strong>02</strong>
+            <div><h2>Simple by design</h2><p>Technology should feel clear, calm, and intuitive.</p></div>
+          </div>
+          <div class="principle">
+            <strong>03</strong>
+            <div><h2>Built to last</h2><p>Reliable foundations matter as much as a polished interface.</p></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="about">
+        <p class="eyebrow">ABOUT US</p>
+        <div class="section-heading">
+          <h2>Small company. Practical ideas.</h2>
+          <p>
+            Mejor Tech LLC is a New Jersey software company focused on creating
+            straightforward digital products that help users organize, understand,
+            and act on information with confidence.
+          </p>
+        </div>
+      </section>
+
+      <section class="section" id="products">
+        <p class="eyebrow">PRODUCTS</p>
+        <div class="product-grid">
+          <article class="product-card featured">
+            <div class="product-icon">S</div>
+            <div>
+              <span class="status">In development</span>
+              <h2>Selah</h2>
+              <p>
+                A mobile-first Scripture garden for thoughtful reading, personal
+                reflections, and long-term study.
+              </p>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <div class="product-icon">InEx</div>
+            <div>
+              <span class="status">Business software</span>
+              <h2>InEx Ledger</h2>
+              <p>
+                Simple income and expense tracking built for independent operators
+                who want clean books without the accounting headache.
+              </p>
+            </div>
+          </article>
+
+          <article class="product-card muted-card">
+            <div class="product-icon">+</div>
+            <div>
+              <span class="status">More to come</span>
+              <h2>Future products</h2>
+              <p>
+                Mejor Tech continues to develop useful software across finance,
+                property, productivity, and mobile applications.
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="contact-section" id="contact">
+        <div>
+          <p class="eyebrow">CONTACT</p>
+          <h2>Questions about Mejor Tech?</h2>
+          <p>Reach us by email and we will respond as soon as possible.</p>
+        </div>
+        <a class="button light" href="mailto:evelyn62893@gmail.com">evelyn62893@gmail.com</a>
+      </section>
+    </main>
+
+    <footer>
+      <div class="brand footer-brand">
+        <img src="/mark.svg" alt="" width="32" height="32" />
+        <span>Mejor Tech LLC</span>
+      </div>
+      <p>Building Better Technology That Makes Sense.</p>
+      <div class="footer-links">
+        <a href="/privacy.html">Privacy Policy</a>
+        <a href="/terms.html">Terms</a>
+      </div>
+      <small>© <span id="year"></span> Mejor Tech LLC. All rights reserved.</small>
+    </footer>
+
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
