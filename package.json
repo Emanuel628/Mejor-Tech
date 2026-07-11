@@ -1,0 +1,12 @@
+{
+  "name": "mejor-tech-website",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Official website for Mejor Tech LLC",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
